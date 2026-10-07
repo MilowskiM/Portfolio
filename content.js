@@ -22,7 +22,7 @@ window.PORTFOLIO_CONTENT = {
       "I am an aerospace engineering student at the University of Illinois Urbana-Champaign. I enjoy work that connects analysis, design, manufacturing, and testing—especially when the problem sits at the intersection of hardware and mission objectives.",
       "My experience spans space mission cost analysis at NASA Langley, electromechanical actuation systems at Woodward, cryogenic propellant research, and detailed CAD. I bring a practical, collaborative approach to technical problems and communicate complex work clearly across teams."
     ],
-    aboutPhoto: "assets/images/profile-headshot.jpg",
+    aboutPhoto: "assets/images/profile-headshot.jpg?v=20261007-final",
     aboutPhotoAlt: "Professional headshot of Michael Milowski",
     currentFocus: "Currently supporting the Space Mission Cost Team at NASA Langley Research Center."
   },
