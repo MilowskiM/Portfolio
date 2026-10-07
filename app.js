@@ -45,10 +45,12 @@ function renderHome() {
       <p class="eyebrow">${content.home.aboutEyebrow}</p>
       <div class="home-about-grid">
         <h2>${content.home.aboutTitle}</h2>
-        <figure class="home-about-portrait">
-          <img src="${content.person.aboutPhoto}" alt="${content.person.aboutPhotoAlt}" loading="lazy" />
-          <figcaption><span>${content.home.portraitCaption}</span><small>${content.home.portraitLabel}</small></figcaption>
-        </figure>
+        <a class="home-about-portrait-link" href="#about" data-route="about" aria-label="${content.home.portraitLinkLabel}">
+          <figure class="home-about-portrait">
+            <img src="${content.person.aboutPhoto}" alt="${content.person.aboutPhotoAlt}" loading="lazy" />
+            <figcaption><span>${content.home.portraitCaption}</span><small>${content.home.portraitLabel}</small></figcaption>
+          </figure>
+        </a>
         <div class="home-about-copy">
           <p>${content.home.aboutText}</p>
           <div class="experience-shortcuts">

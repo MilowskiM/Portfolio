@@ -74,9 +74,12 @@ h2 { font-size: clamp(2rem, 4.5vw, 4rem); }
 .home-about { padding-top: clamp(5rem, 9vw, 9rem); padding-bottom: clamp(5rem, 10vw, 10rem); border-top: 1px solid var(--line); }
 .home-about-grid { display: grid; grid-template-columns: 1.05fr .65fr .85fr; gap: clamp(2rem, 4vw, 4.5rem); align-items: center; }
 .home-about h2 { max-width: 760px; margin: 0; }
-.home-about-portrait { position: relative; width: 100%; max-width: 310px; aspect-ratio: 4 / 5; margin: 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.home-about-portrait-link { display: block; width: min(100%, 310px); text-decoration: none; }
+.home-about-portrait-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
+.home-about-portrait { position: relative; width: 100%; aspect-ratio: 4 / 5; margin: 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
 .home-about-portrait::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 58%, rgba(3,5,9,.88)); pointer-events: none; }
-.home-about-portrait img { height: 100%; object-fit: cover; object-position: center 26%; filter: saturate(.9) contrast(1.04); }
+.home-about-portrait img { height: 100%; object-fit: cover; object-position: center 26%; filter: saturate(.9) contrast(1.04); transition: transform .35s ease, filter .35s ease; }
+.home-about-portrait-link:hover .home-about-portrait img { transform: scale(1.025); filter: saturate(1) contrast(1.04); }
 .home-about-portrait figcaption { position: absolute; z-index: 2; inset: auto 1.25rem 1.15rem; display: grid; gap: .2rem; }
 .home-about-portrait figcaption span { color: var(--ink); font-weight: 700; }
 .home-about-portrait figcaption small { color: var(--blue); font: .66rem ui-monospace, monospace; letter-spacing: .13em; text-transform: uppercase; }
@@ -184,7 +187,7 @@ h2 { font-size: clamp(2rem, 4.5vw, 4rem); }
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } .project-feature img { transition: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } .project-feature img, .home-about-portrait img { transition: none; } }
 
 @media (max-width: 900px) {
   .site-header { height: 68px; }
@@ -214,7 +217,7 @@ h2 { font-size: clamp(2rem, 4.5vw, 4rem); }
   .earth-stage { min-height: 390px; }
   .earth-stage figcaption { inset: auto 1.25rem 1.25rem; font-size: .8rem; }
   .home-about { padding-top: 4rem; padding-bottom: 4.5rem; }
-  .home-about-portrait { width: min(100%, 280px); }
+  .home-about-portrait-link { width: min(100%, 280px); }
   .home-feature { min-height: 450px; }
   .dark-card { grid-template-columns: 1fr; }
   .feature-number { position: absolute; top: 1.5rem; right: 1.5rem; }

@@ -46,6 +46,7 @@ window.PORTFOLIO_CONTENT = {
     aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and PCB rework and repair at Woodward.",
     portraitCaption: "Michael Milowski",
     portraitLabel: "Aerospace engineering",
+    portraitLinkLabel: "View Michael Milowski’s profile",
     nasaLink: "NASA experience",
     woodwardLink: "Woodward experience"
   },
