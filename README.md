@@ -6,7 +6,7 @@ A static portfolio site built with plain HTML, CSS, and JavaScript. It has no bu
 
 Open `content.js`. All page copy, section labels, project descriptions, résumé entries, links, and contact details live in that file.
 
-To add a portrait later, put the image in `assets/images/`, then replace the portrait placeholder in `app.js` inside `renderAbout()` with an image that points to the new file.
+The portrait used on the Home and About pages is set by `aboutPhoto` in `content.js`. To replace it, add the new image to `assets/images/` and update that path.
 
 ## Preview locally
 
