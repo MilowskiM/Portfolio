@@ -16,7 +16,7 @@ window.PORTFOLIO_CONTENT = {
     linkedin: "https://www.linkedin.com/in/michaelmilowski/",
     heroEyebrow: "AEROSPACE · SYSTEMS · HARDWARE",
     heroTitle: "Understanding Systems to Design the Future.",
-    heroIntro: "I’m an aerospace engineering student focused on space missions, complex systems, and turning concepts into reality.",
+    heroIntro: "UIUC aerospace engineering student and NASA Langley Pathways Intern with experience in mission cost analysis, electromechanical systems, cryogenic propellant research, CAD, prototyping, and test.",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
       "I am an aerospace engineering student at the University of Illinois Urbana-Champaign focused on becoming a well-rounded engineer through experience across the different stages of complex aerospace projects and missions.",
