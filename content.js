@@ -19,8 +19,8 @@ window.PORTFOLIO_CONTENT = {
     heroIntro: "I’m an aerospace engineering student focused on space missions, complex systems, and turning concepts into reality.",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
-      "I am an aerospace engineering student at the University of Illinois Urbana-Champaign. I enjoy work that connects analysis, design, manufacturing, and testing—especially when the problem sits at the intersection of hardware and mission objectives.",
-      "My experience spans space mission cost analysis at NASA Langley, electromechanical actuation systems at Woodward, cryogenic propellant research, and detailed CAD. I bring a practical, collaborative approach to technical problems and communicate complex work clearly across teams."
+      "I am an aerospace engineering student at the University of Illinois Urbana-Champaign focused on becoming a well-rounded engineer through experience across the different stages of complex aerospace projects and missions.",
+      "My experience spans space mission cost analysis at NASA Langley, aerospace electronics systems engineering at Woodward, cryogenic propellant research, and hands-on engineering design. I bring a practical, collaborative approach to technical problems and communicate complex work clearly across teams."
     ],
     aboutPhoto: "assets/profile-headshot.jpg?v=20261007-assets",
     aboutPhotoAlt: "Professional headshot of Michael Milowski",
