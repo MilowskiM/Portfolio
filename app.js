@@ -17,6 +17,7 @@ const linkButton = (label, href, className = "button", download = false) =>
 
 function renderNavigation() {
   document.getElementById("brand-name").textContent = content.person.name;
+  document.getElementById("brand-role").textContent = content.person.headerRole;
   document.getElementById("site-nav").innerHTML = content.navigation
     .map((item, index) => `<a href="#${item.route}" data-route="${item.route}" style="--i:${index}">${item.label}</a>`)
     .join("");
@@ -36,10 +37,21 @@ function renderHome() {
           ${linkButton(content.home.resumeButton, content.resume.primaryDownload, "text-link", true)}
         </div>
       </div>
-      <figure class="earth-stage reveal">
-        <img src="assets/images/earthrise.jpg" alt="Earth rising above the Moon's horizon, photographed during Apollo 8" />
-        <figcaption><span>${content.person.currentFocus}</span><small>Earthrise · Apollo 8 · NASA</small></figcaption>
-      </figure>
+      <div class="hero-visual reveal">
+        <figure class="earth-stage">
+          <img src="${content.person.heroImage}" alt="${content.person.heroImageAlt}" />
+          <figcaption>${content.person.heroImageCredit}</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="credibility-strip" aria-label="Experience and education highlights">
+      <div class="credibility-inner page-shell">
+        ${content.home.credibility.map((item, index) => `
+          <div class="credibility-item reveal" data-index="${String(index + 1).padStart(2, "0")}">
+            <span>${item.organization}</span>
+            <strong>${item.detail}</strong>
+          </div>`).join("")}
+      </div>
     </div>
     <div class="home-about page-shell reveal">
       <p class="eyebrow">${content.home.aboutEyebrow}</p>

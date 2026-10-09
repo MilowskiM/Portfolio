@@ -10,6 +10,7 @@ window.PORTFOLIO_CONTENT = {
     name: "Michael Milowski",
     shortName: "Michael",
     role: "Aerospace Engineering Student",
+    headerRole: "Aerospace Engineer",
     location: "University of Illinois Urbana-Champaign",
     graduation: "B.S. Aerospace Engineering · May 2028",
     email: "mdm17@illinois.edu",
@@ -17,14 +18,16 @@ window.PORTFOLIO_CONTENT = {
     heroEyebrow: "AEROSPACE · SYSTEMS · HARDWARE",
     heroTitle: "Understanding Systems to Design the Future.",
     heroIntro: "UIUC aerospace engineering student and NASA Langley Pathways Intern with experience in mission cost analysis, electromechanical systems, cryogenic propellant research, CAD, prototyping, and test.",
+    heroImage: "assets/images/sls-cad-photo.jpg",
+    heroImageAlt: "Exploded-view render of Michael Milowski’s NASA SLS Block 1 digital model above Earth",
+    heroImageCredit: "SLS Block 1 · Digital model",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
       "I am an aerospace engineering student at the University of Illinois Urbana-Champaign focused on becoming a well-rounded engineer through experience across the different stages of complex aerospace projects and missions.",
       "My experience spans space mission cost analysis at NASA Langley, aerospace electronics systems engineering at Woodward, cryogenic propellant research, and hands-on engineering design. I bring a practical, collaborative approach to technical problems and communicate complex work clearly across teams."
     ],
     aboutPhoto: "assets/profile-headshot.jpg?v=20261007-assets",
-    aboutPhotoAlt: "Professional headshot of Michael Milowski",
-    currentFocus: "Currently supporting the Space Mission Cost Team at NASA Langley Research Center."
+    aboutPhotoAlt: "Professional headshot of Michael Milowski"
   },
 
   navigation: [
@@ -48,7 +51,12 @@ window.PORTFOLIO_CONTENT = {
     portraitLabel: "Aerospace engineering",
     portraitLinkLabel: "View Michael Milowski’s profile",
     nasaLink: "NASA experience",
-    woodwardLink: "Woodward experience"
+    woodwardLink: "Woodward experience",
+    credibility: [
+      { organization: "NASA Langley", detail: "Pathways Intern" },
+      { organization: "Woodward", detail: "NPI Systems Engineering Intern" },
+      { organization: "UIUC", detail: "B.S. Aerospace Engineering, 2028" }
+    ]
   },
 
   pageCopy: {
