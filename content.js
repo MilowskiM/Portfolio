@@ -46,7 +46,7 @@ window.PORTFOLIO_CONTENT = {
     resumeButton: "Download résumé",
     aboutEyebrow: "ABOUT ME",
     aboutTitle: "Building a well-rounded engineering perspective across every phase of complex projects and missions.",
-    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and PCB rework and repair at Woodward.",
+    aboutText: "I am an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and PCB rework and repair at Woodward.",
     portraitCaption: "Michael Milowski",
     portraitLabel: "Aerospace engineering",
     portraitLinkLabel: "View Michael Milowski’s profile",
@@ -193,9 +193,9 @@ window.PORTFOLIO_CONTENT = {
   ],
 
   resume: {
-    title: "Résumé",
+    title: "Resume",
     intro: "A record of my engineering experience, leadership, education, and technical toolkit.",
-    primaryDownloadLabel: "Download current résumé",
+    primaryDownloadLabel: "Download current resume",
     primaryDownload: "assets/resume/Michael_Milowski_Resume.pdf",
     education: {
       school: "University of Illinois Urbana-Champaign",
