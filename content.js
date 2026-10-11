@@ -34,7 +34,7 @@ window.PORTFOLIO_CONTENT = {
     { label: "Home", route: "home" },
     { label: "Experience", route: "experience" },
     { label: "Portfolio", route: "portfolio" },
-    { label: "Résumé", route: "resume" },
+    { label: "Resume", route: "resume" },
     { label: "About", route: "about" }
   ],
 
